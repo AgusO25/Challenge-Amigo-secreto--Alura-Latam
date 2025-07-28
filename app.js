@@ -51,7 +51,6 @@ function validarEntrada(nombre) {
     return false; // Eran solo espacios
 }
 
-
 function visualizarLista(unaLista, unNombre){
     unaLista.innerHTML += "<li>" + unNombre + "</li>"; // Lo hice así para que se vayan mostrando los nombres uno abajo del otro
 }
